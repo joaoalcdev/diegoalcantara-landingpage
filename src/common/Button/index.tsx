@@ -7,7 +7,9 @@ export const Button = ({
   children,
   onClick,
 }: ButtonProps) => (
-  <StyledButton color={color} fixedWidth={fixedWidth} onClick={onClick}>
-    {children}
-  </StyledButton>
+  <a href="https://www.google.com" target="_blank" rel="noreferrer">
+    <StyledButton color={color} fixedWidth={fixedWidth} onClick={onClick}>
+      {children}
+    </StyledButton>
+  </a>
 );

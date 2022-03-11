@@ -3,16 +3,108 @@ import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 
 export const HeaderSection = styled("header")`
-  padding: 1rem 0.5rem;
 
   .ant-row-space-between {
     align-items: center;
     text-align: center;
   }
+
+  /* 4K - 2560px */
+  @media only screen and (max-width: 2560px) {
+    padding-top: 8rem;
+    margin-bottom: 0rem;
+    padding-left: 0.5rem
+    padding-right: 0.5rem
+  }
+  /* Laptop L - 1440px */
+  @media only screen and (max-width: 1440px) {
+    padding-top: 4rem;
+    margin-bottom: 0rem;
+    padding-left: 0.5rem
+    padding-right: 0.5rem
+  }
+  /* Tablet - 768px */
+  @media only screen and (max-width: 768px) {
+    padding-top: 3rem;
+    margin-bottom: 0rem;
+    padding-left: 0.5rem
+    padding-right: 0.5rem
+  }
+    /* Mobile L - 425px */
+  @media only screen and (max-width: 425px) {
+    padding-top: 2rem;
+    margin-bottom: 0rem;
+    padding-left: 0.5rem
+    padding-right: 0.5rem
+  }
+  /* Mobile M - 375px */
+  @media only screen and (max-width: 375px) {
+    padding-top: 2rem;
+    margin-bottom: 0rem;
+    padding-left: 0.5rem
+    padding-right: 0.5rem
+  }
+  /* Mobile S - 320px */
+  @media only screen and (max-width: 320px) {
+    padding-top: 2rem;
+    margin-bottom: 0rem;
+    padding-left: 0.5rem
+    padding-right: 0.5rem
+  }
 `;
 
 export const LogoContainer = styled(Link)`
   display: flex;
+
+  /* 4K - 2560px */
+  @media only screen and (max-width: 2560px) {
+    img {
+      height: auto;
+      width: 278px;
+    }
+  }
+  /* Laptop L - 1440px */
+  @media only screen and (max-width: 1440px) {
+    img {
+      height: auto;
+      width: 268px;
+    }
+  }
+  /* Laptop - 1024px */
+  @media only screen and (max-width: 1024px) {
+    img {
+      height: auto;
+      width: 258px;
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (max-width: 768px) {
+    img {
+      height: auto;
+      width: 238px;
+    }
+  }
+    /* Mobile L - 425px */
+  @media only screen and (max-width: 425px) {
+    img {
+      height: auto;
+      width: 198px;
+    }
+  }
+  /* Mobile M - 375px */
+  @media only screen and (max-width: 375px) {
+    img {
+      height: auto;
+      width: 178px;
+    }
+  }
+  /* Mobile S - 320px */
+  @media only screen and (max-width: 320px) {
+    img {
+      height: auto;
+      width: 168px;
+    }
+  }
 `;
 
 export const NavLink = styled("div")`
@@ -43,19 +135,19 @@ export const ContactWrapper = styled("div")<any>`
 `;
 
 export const Burger = styled("div")`
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 910px) {
     display: block;
   }
 
   display: none;
 
   svg {
-    fill: #2e186a;
+    fill: #1890ff;
   }
 `;
 
 export const NotHidden = styled("div")`
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 910px) {
     display: none;
   }
 `;
@@ -67,8 +159,10 @@ export const Menu = styled("h5")`
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
-  font-size: 1.2rem;
-  color: #18216d;
+  font-size: 1rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 800;
+  color: #000000;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
 
@@ -78,7 +172,7 @@ export const CustomNavLinkSmall = styled(NavLink)`
 `;
 
 export const Label = styled("span")`
-  font-weight: 500;
+  font-weight: 800;
   color: #404041;
   text-align: right;
   display: flex;
@@ -93,12 +187,24 @@ export const Outline = styled(MenuOutlined)<any>`
 export const Span = styled("span")`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  color: #000000;
 
   &:hover,
   &:active,
   &:focus {
-    color: rgb(255, 130, 92);
+    color: red;
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: red wavy underline;
+  }
+
+  a {
+    color: #1890ff;
+    &:hover,
+    &:active,
+    &:focus {
+      color: #1890ff;
+      text-underline-position: under;
+      text-decoration: #1890ff wavy underline;
+    }
   }
 `;

@@ -2,24 +2,41 @@ import { createGlobalStyle } from "styled-components";
 
 export const Styles = createGlobalStyle`
 
-    @font-face {
-        font-family: "Motiva Sans Light";
-        src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
+    /* @font-face {
+        font-family: "Space Grotesk Light";
+        src: local('Space Grotesk Light'), url("../../public/fonts/SpaceGrotesk-Regular.ttf") format("truetype");
         font-style: normal;
+        font-display: swap;
     }
 
     @font-face {
-        font-family: "Motiva Sans Bold";
-        src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
+        font-family: "Space Grotesk Regular";
+        src: local('Space Grotesk Regular'), url("../../public/fonts/SpaceGrotesk-Regular.ttf") format("truetype");
         font-style: normal;
+        font-display: swap;
     }
 
+    @font-face {
+        font-family: "Space Grotesk Medium";
+        src: local('Space Grotesk Medium'), url("../../public/fonts/SpaceGrotesk-Medium.ttf") format("truetype");
+        font-style: normal;
+        font-display: swap;
+    }
 
-    body,
+    @font-face {
+        font-family: "Space Grotesk Bold";
+        src: local('Space Grotesk Bold'), url("../../public/fonts/SpaceGrotesk-Bold.ttf") format("truetype");
+        font-style: normal;
+        font-display: swap;
+    } */
+
+
+    /* body,
     html,
     a {
-        font-family: 'Motiva Sans Light', sans-serif;
-    }
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 800;
+    } */
 
 
     body {
@@ -31,9 +48,9 @@ export const Styles = createGlobalStyle`
         overflow-x: hidden;
     }
 
-    a:hover {
-        color: #18216d;
-    }
+    /* a:hover {
+        color: #1890ff;
+    } */
 
     input,
     textarea {
@@ -51,14 +68,15 @@ export const Styles = createGlobalStyle`
         }
     }
 
-    h1,
+    /* h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
-        font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+        color: #000000;
         font-size: 56px;
         line-height: 1.18;
 
@@ -69,10 +87,12 @@ export const Styles = createGlobalStyle`
         @media only screen and (max-width: 414px) {
           font-size: 32px;
         }
-    }
+    } */
 
     p {
-        color: #18216d;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 300;
+        color: #000000;
         font-size: 21px;        
         line-height: 1.41;
     }
@@ -81,15 +101,15 @@ export const Styles = createGlobalStyle`
         font-weight: 600;
     }
 
-    a {
+    /* a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #1890ff;
 
         :hover {
-            color: #2e186a;
+            color: #1890ff;
         }
-    }
+    } */
     
     *:focus {
         outline: none;
