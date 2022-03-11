@@ -205,6 +205,7 @@ export const ButtonWrapper = styled("div")`
   } */
 `;
 
+// object style
 export const Ellipse = styled("span")`
   /* background: #1464F6; */
   content: "";
