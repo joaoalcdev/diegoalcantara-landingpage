@@ -7,7 +7,7 @@ import Container from "../../common/Container";
 import {
   // FooterSection,
   // Title,
-  NavLink,
+  // NavLink,
   Extra,
   LogoContainer,
   // Para,
@@ -62,20 +62,20 @@ const Footer = ({ t }: any) => {
             {/* </NavLink> */}
             <FooterContainer>
               <SocialLink
-                href="https://twitter.com/diegoalcantara.s"
-                src="twitter.svg"
+                href="https://instagram.com/diegoalcantara.s"
+                src="instagram.svg"
               />
               <SocialLink
-                href="https://twitter.com/diegoalcantara.s"
-                src="twitter.svg"
+                href="https://instagram.com/diegoalcantara.s"
+                src="instagram.svg"
               />
               <SocialLink
-                href="https://twitter.com/diegoalcantara.s"
-                src="twitter.svg"
+                href="https://instagram.com/diegoalcantara.s"
+                src="instagram.svg"
               />
               <SocialLink
-                href="https://twitter.com/diegoalcantara.s"
-                src="twitter.svg"
+                href="https://instagram.com/diegoalcantara.s"
+                src="instagram.svg"
               />
               {/* <SocialLink
                 href="https://medium.com/@diegoalcantara/"

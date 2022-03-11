@@ -20,7 +20,7 @@ export const RightBlockContainer = styled("section")`
     margin-top: 2rem;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
   }
   /* Laptop - 1024px */
   @media only screen and (max-width: 1024px) {
