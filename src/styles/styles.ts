@@ -38,6 +38,23 @@ export const Styles = createGlobalStyle`
         font-weight: 800;
     } */
 
+    /* CUSTOM SCROLLBAR */
+    ::-webkit-scrollbar-track {
+	  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	  /* border-radius: 10px; */
+	  background-color: #041B44;
+    }
+
+    ::-webkit-scrollbar {
+	  width: 12px;
+	  background-color: #041B44;
+    }
+
+    ::-webkit-scrollbar-thumb {
+	  /* border-radius: 10px; */
+	  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	  background-color: #1464F6;
+    }
 
     body {
         margin:0;
@@ -64,7 +81,7 @@ export const Styles = createGlobalStyle`
 
         :focus-within {
             background: none;
-            box-shadow: #2e186a 0px 0px 0px 1px;
+            box-shadow: #041B44 0px 0px 0px 1px;
         }
     }
 

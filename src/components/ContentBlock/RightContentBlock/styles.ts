@@ -6,6 +6,7 @@ export const RightBlockContainer = styled("section")`
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 8rem; */
+  /* background: radial-gradient(circle at right bottom, #2497F4 , #fff); */
 
   /* 4K - 2560px */
   @media only screen and (max-width: 2560px) {
@@ -16,7 +17,7 @@ export const RightBlockContainer = styled("section")`
   }
   /* Laptop L - 1440px */
   @media only screen and (max-width: 1440px) {
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 7rem;
@@ -202,3 +203,15 @@ export const ButtonWrapper = styled("div")`
     margin-left: 20px;
   } */
 `;
+
+export const Ellipse = styled("span")`
+  /* background: #1464F6; */
+  content: "";
+  z-index: -10;
+  position: relative;
+  flex-wrap: no-wrap;
+  border-radius: 100%;
+  box-shadow: 0px 5px 1150px 350px #1464F6;
+  opacity: 20%;
+  left: 100%;
+`

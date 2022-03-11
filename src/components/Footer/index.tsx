@@ -62,19 +62,19 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/diegoalcantara.s"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/diegoalcantara.s"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/diegoalcantara.s"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/diegoalcantara.s"
                 src="twitter.svg"
               />
               {/* <SocialLink

@@ -9,6 +9,7 @@ import {
   Content,
   ContentWrapper,
   ButtonWrapper,
+  Ellipse
 } from "./styles";
 
 const RightBlock = ({
@@ -55,6 +56,7 @@ const RightBlock = ({
           </Col>
         </Row>
       </Fade>
+      <Ellipse />
     </RightBlockContainer>
   );
 };
