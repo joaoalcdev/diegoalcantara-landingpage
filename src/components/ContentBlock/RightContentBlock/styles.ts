@@ -149,6 +149,7 @@ export const Content = styled("p")`
   margin-right: 0;
   margin-bottom: 2rem;
   margin-left: 0;
+  font-family: 'Space Grotesk', sans-serif;
 
   /* 4K - 2560px */
   @media only screen and (max-width: 2560px) {
@@ -157,10 +158,8 @@ export const Content = styled("p")`
   }
   /* Laptop L - 1440px */
   @media only screen and (max-width: 1440px) {
-    p {
-      font-size: 1.175rem;
-      width: 100%;
-    }
+    font-size: 1.125rem;
+    width: 100%;
   }
   /* Laptop - 1024px */
   @media only screen and (max-width: 1024px) {
@@ -169,7 +168,7 @@ export const Content = styled("p")`
   }
   /* Tablet - 768px */
   @media only screen and (max-width: 768px) {
-    font-size: 0.675rem;
+    font-size: 0.725rem;
     width: 100%;
   }
     /* Mobile L - 425px */
