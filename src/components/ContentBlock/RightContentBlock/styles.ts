@@ -17,7 +17,7 @@ export const RightBlockContainer = styled("section")`
   }
   /* Laptop L - 1440px */
   @media only screen and (max-width: 1440px) {
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 7rem;
@@ -85,6 +85,7 @@ export const ContentWrapper = styled("div")`
   /* Laptop L - 1440px */
   @media only screen and (max-width: 1440px) {
     h6 {
+      padding-top: 3rem;
       text-align: start;
       font-size: 2.725rem;
       width: 100%;

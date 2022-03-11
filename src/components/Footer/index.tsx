@@ -50,7 +50,7 @@ const Footer = ({ t }: any) => {
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
-            <NavLink to="/">
+            {/* <NavLink to="/"> */}
               <LogoContainer>
                 <SvgIcon
                   src="logo-footer.svg"
@@ -59,7 +59,7 @@ const Footer = ({ t }: any) => {
                   height="64px"
                 />
               </LogoContainer>
-            </NavLink>
+            {/* </NavLink> */}
             <FooterContainer>
               <SocialLink
                 href="https://twitter.com/diegoalcantara.s"
