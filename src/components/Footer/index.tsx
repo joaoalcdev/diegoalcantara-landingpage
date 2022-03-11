@@ -27,10 +27,6 @@ interface SocialLinkProps {
 }
 
 const Footer = ({ t }: any) => {
-  // const handleChange = (language: string) => {
-  //   i18n.changeLanguage(language);
-  // };
-
   const SocialLink = ({ href, src }: SocialLinkProps) => {
     return (
       <a
@@ -57,8 +53,8 @@ const Footer = ({ t }: any) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
+                  src="logo-footer.svg"
+                  aria-label="footer"
                   width="101px"
                   height="64px"
                 />
@@ -70,17 +66,21 @@ const Footer = ({ t }: any) => {
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://medium.com/@diegoalcantara/"
-                src="medium.svg"
+                href="https://twitter.com/Adrinlolx"
+                src="twitter.svg"
               />
               <SocialLink
                 href="https://twitter.com/Adrinlolx"
                 src="twitter.svg"
               />
               <SocialLink
+                href="https://twitter.com/Adrinlolx"
+                src="twitter.svg"
+              />
+              {/* <SocialLink
                 href="https://medium.com/@diegoalcantara/"
                 src="medium.svg"
-              />
+              /> */}
             </FooterContainer>
           </Row>
         </Container>
