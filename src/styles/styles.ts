@@ -4,28 +4,28 @@ export const Styles = createGlobalStyle`
 
     /* @font-face {
         font-family: "Space Grotesk Light";
-        src: local('Space Grotesk Light'), url("../../public/fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+        src: url("fonts/SpaceGrotesk-Regular.ttf") format("truetype");
         font-style: normal;
         font-display: swap;
     }
 
     @font-face {
         font-family: "Space Grotesk Regular";
-        src: local('Space Grotesk Regular'), url("../../public/fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+        src: url("fonts/SpaceGrotesk-Regular.ttf") format("truetype");
         font-style: normal;
         font-display: swap;
     }
 
     @font-face {
         font-family: "Space Grotesk Medium";
-        src: local('Space Grotesk Medium'), url("../../public/fonts/SpaceGrotesk-Medium.ttf") format("truetype");
+        src: url("fonts/SpaceGrotesk-Medium.ttf") format("truetype");
         font-style: normal;
         font-display: swap;
     }
 
     @font-face {
         font-family: "Space Grotesk Bold";
-        src: local('Space Grotesk Bold'), url("../../public/fonts/SpaceGrotesk-Bold.ttf") format("truetype");
+        src: url("fonts/SpaceGrotesk-Bold.ttf") format("truetype");
         font-style: normal;
         font-display: swap;
     } */
