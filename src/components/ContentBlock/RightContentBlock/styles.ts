@@ -55,7 +55,11 @@ export const RightBlockContainer = styled("section")`
     margin-top: 3rem;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+
+    img {
+      display: none;
+    }
   }
 `;
 
