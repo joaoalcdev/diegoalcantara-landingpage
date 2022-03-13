@@ -16,9 +16,81 @@ export const Content = styled("p")`
 export const ContentWrapper = styled("div")`
   position: relative;
   max-width: 540px;
+  font-family: 'Space Grotesk', sans-serif;
 
   @media only screen and (max-width: 575px) {
     padding-top: 4rem;
+  }
+
+  /* 4K - 2560px */
+  @media only screen and (max-width: 2560px) {
+    h6 {
+      text-align: start;
+      font-size: 3rem;
+      width: 100%;
+      max-width: 2560px;
+    }
+  }
+  /* Laptop L - 1440px */
+  @media only screen and (max-width: 1440px) {
+    h6 {
+      padding-top: 3rem;
+      text-align: start;
+      font-size: 2.725rem;
+      width: 100%;
+      max-width: 1440px;
+      line-height: 1.20;
+    }
+  }
+  /* Laptop - 1024px */
+  @media only screen and (max-width: 1024px) {
+    h6 {
+      text-align: start;
+      font-size: 2.150rem;
+      width: 100%;
+      max-width: 1024px;
+      line-height: 1.24;
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (max-width: 768px) {
+    h6 {
+      text-align: start;
+      font-size: 1.675rem;
+      width: 100%;
+      max-width: 768px;
+      line-height: 1.23;
+    }
+  }
+    /* Mobile L - 425px */
+  @media only screen and (max-width: 425px) {
+    h6 {
+      text-align: center;
+      font-size: 2rem;
+      width: 100%;
+      max-width: 425px;
+       line-height: 1.25;
+    }
+  }
+  /* Mobile M - 375px */
+  @media only screen and (max-width: 375px) {
+    h6 {
+      text-align: center;
+      font-size: 1.875rem;
+      width: 100%;
+      max-width: 375px;
+      line-height: 1.20;
+    }
+  }
+  /* Mobile S - 320px */
+  @media only screen and (max-width: 320px) {
+    h6 {
+      text-align: center;
+      font-size: 1.8rem;
+      width: 100%;
+      max-width: 320px;
+      line-height: 1.15;
+    }
   }
 `;
 
@@ -28,15 +100,28 @@ export const ServiceWrapper = styled("div")`
   max-width: 100%;
 `;
 
-export const MinTitle = styled("h6")`
+export const MinTitle = styled("p")`
   font-size: 15px;
+  font-weight: 600;
   line-height: 1rem;
   padding: 0.5rem 0;
   text-transform: uppercase;
   color: #000;
-  font-family: "Motiva Sans Light", sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 `;
 
 export const MinPara = styled("p")`
   font-size: 13px;
 `;
+
+export const Ellipse = styled("span")`
+  /* background: #1464F6; */
+  content: "";
+  z-index: -10;
+  position: relative;
+  flex-wrap: no-wrap;
+  border-radius: 100%;
+  box-shadow: 0px 5px 1150px 350px #1464F6;
+  opacity: 20%;
+  left: 0;
+`
