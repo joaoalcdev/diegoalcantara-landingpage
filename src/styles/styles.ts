@@ -57,10 +57,6 @@ export const Styles = createGlobalStyle`
     }
 
     body {
-        margin:0;
-        padding:0;
-        border: 0;
-        outline: 0;
         background: #fff;
         overflow-x: hidden;
     }

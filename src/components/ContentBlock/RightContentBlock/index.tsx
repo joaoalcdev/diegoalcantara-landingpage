@@ -9,7 +9,7 @@ import {
   Content,
   ContentWrapper,
   ButtonWrapper,
-  Ellipse
+  // Ellipse
 } from "./styles";
 
 const RightBlock = ({
@@ -51,12 +51,12 @@ const RightBlock = ({
               </ButtonWrapper>
             </ContentWrapper>
           </Col>
-          <Col lg={13} md={11} sm={12} xs={24}>
+          <Col lg={13} md={11} sm={12} xs={0}>
             <SvgIcon src={icon} width="100%" height="100%" />
           </Col>
         </Row>
       </Fade>
-      <Ellipse />
+      {/* <Ellipse /> */}
     </RightBlockContainer>
   );
 };
