@@ -42,6 +42,10 @@ export const RightBlockContainer = styled("section")`
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 3rem;
+
+    img {
+      display: none;
+    }
   }
   /* Mobile M - 375px */
   @media only screen and (max-width: 375px) {
@@ -49,6 +53,10 @@ export const RightBlockContainer = styled("section")`
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 2rem;
+
+    img {
+      display: none;
+    }
   }
   /* Mobile S - 320px */
   @media only screen and (max-width: 320px) {
@@ -120,8 +128,8 @@ export const ContentWrapper = styled("div")`
     /* Mobile L - 425px */
   @media only screen and (max-width: 425px) {
     h6 {
-      text-align: start;
-      font-size: 1.925rem;
+      text-align: center;
+      font-size: 2rem;
       width: 100%;
       max-width: 425px;
        line-height: 1.25;
@@ -130,8 +138,8 @@ export const ContentWrapper = styled("div")`
   /* Mobile M - 375px */
   @media only screen and (max-width: 375px) {
     h6 {
-      text-align: start;
-      font-size: 1.775rem;
+      text-align: center;
+      font-size: 1.875rem;
       width: 100%;
       max-width: 375px;
       line-height: 1.20;
@@ -179,17 +187,22 @@ export const Content = styled("p")`
   }
     /* Mobile L - 425px */
   @media only screen and (max-width: 425px) {
-    font-size: 0.775rem;
+    text-align: center;
+    font-size: 0.950rem;
     width: 100%;
   }
   /* Mobile M - 375px */
   @media only screen and (max-width: 375px) {
-    font-size: 0.725rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
     width: 100%;
   }
   /* Mobile S - 320px */
   @media only screen and (max-width: 320px) {
-    font-size: 0.625rem;
+    text-align: center;
+    font-size: 0.875rem;
     width: 100%;
   }
 `;
@@ -202,6 +215,26 @@ export const ButtonWrapper = styled("div")`
 
   @media screen and (min-width: 1024px) {
     max-width: 80%;
+  }
+  /* 4K - 2560px */
+  @media only screen and (max-width: 2560px) {}
+  /* Laptop L - 1440px */
+  @media only screen and (max-width: 1440px) {}
+  /* Laptop - 1024px */
+  @media only screen and (max-width: 1024px) {}
+  /* Tablet - 768px */
+  @media only screen and (max-width: 768px) {}
+    /* Mobile L - 425px */
+  @media only screen and (max-width: 425px) {
+    justify-content: center;
+  }
+  /* Mobile M - 375px */
+  @media only screen and (max-width: 375px) {
+    justify-content: center;
+  }
+  /* Mobile S - 320px */
+  @media only screen and (max-width: 320px) {
+    justify-content: center;
   }
 
   /* button:last-child {
