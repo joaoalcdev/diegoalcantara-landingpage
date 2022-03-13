@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "LOREM, IPSUM & LOREM",
+  "text": "LOREM IPSUM LOREM IPSUM LOREM LOREM IPSUM LOREM IPSUM LOREM LOREM IPSUM LOREM IPSUM LOREM LOREM IPSUM LOREM IPSUM LOREM.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Por que cursar medicina?",
+      "content": "LOREM IPSUM LOREM IPSUM LOREM.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Por que criar um produto?",
+      "content": "LOREM IPSUM LOREM IPSUM LOREM.",
       "icon": "notes.svg"
     }
   ]
