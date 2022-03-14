@@ -5,9 +5,9 @@ export const StyledButton = styled("button")<any>`
   color: ${(p) => (p.color = "#1464F6")};
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 700;
   width: 100%;
-  padding: 14px 16px;
+  padding: 20px 32px;
   cursor: pointer;
   margin-top: 0.625rem;
   max-width: 300px;

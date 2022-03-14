@@ -9,9 +9,9 @@ const ScrollToTop = () => {
   const checkScrollTop = (event: any) => {
     const offsetFromTop = getScroll(event.target, true);
 
-    if (!showScroll && offsetFromTop > 350) {
+    if (!showScroll && offsetFromTop > 400) {
       setShowScroll(true);
-    } else if (offsetFromTop <= 350) {
+    } else if (offsetFromTop <= 400) {
       setShowScroll(false);
     }
   };
@@ -25,7 +25,7 @@ const ScrollToTop = () => {
   }, []);
 
   const scrollUp = () => {
-    const element = document.getElementById("intro") as HTMLDivElement;
+    const element = document.getElementById("home") as HTMLDivElement;
     element.scrollIntoView({
       behavior: "smooth",
       block: "end",
