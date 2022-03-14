@@ -7,7 +7,6 @@ export const StyledContainer = styled("div")<any>`
   margin-right: auto;
   margin-left: auto;
   padding: 0 160px;
-  border-top: ${(p) => (p.border ? "1px solid #CDD1D4" : "")};
 
   /* 4K - 2560px */
   @media only screen and (max-width: 2560px) {
