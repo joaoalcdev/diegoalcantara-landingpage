@@ -50,7 +50,7 @@ const LeftContentBlock = ({
           </Col>
         </Row>
       </Fade>
-      <Ellipse />
+      {/* <Ellipse /> */}
     </LeftContentSection>
   );
 };
