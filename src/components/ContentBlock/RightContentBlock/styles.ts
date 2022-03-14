@@ -79,6 +79,10 @@ export const ContentWrapper = styled("div")`
   h6 {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
+
+    span {
+      color: #1464F6;
+    }
   }
 
   @media only screen and (max-width: 575px) {
@@ -99,12 +103,14 @@ export const ContentWrapper = styled("div")`
     h6 {
       padding-top: 3rem;
       text-align: start;
-      font-size: 2.725rem;
+      font-size: 2.525rem;
       width: 100%;
       max-width: 1440px;
       line-height: 1.20;
+      margin-right: 4rem;
     }
   }
+
   /* Laptop - 1024px */
   @media only screen and (max-width: 1024px) {
     h6 {
@@ -113,8 +119,11 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 1024px;
       line-height: 1.24;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
+
   /* Tablet - 768px */
   @media only screen and (max-width: 768px) {
     h6 {
@@ -123,8 +132,11 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 768px;
       line-height: 1.23;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
+
     /* Mobile L - 425px */
   @media only screen and (max-width: 425px) {
     h6 {
@@ -132,9 +144,12 @@ export const ContentWrapper = styled("div")`
       font-size: 2rem;
       width: 100%;
       max-width: 425px;
-       line-height: 1.25;
+      line-height: 1.25;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
+  
   /* Mobile M - 375px */
   @media only screen and (max-width: 375px) {
     h6 {
@@ -143,8 +158,11 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 375px;
       line-height: 1.20;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
+
   /* Mobile S - 320px */
   @media only screen and (max-width: 320px) {
     h6 {
@@ -153,6 +171,8 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 320px;
       line-height: 1.15;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 `;
@@ -164,6 +184,10 @@ export const Content = styled("p")`
   margin-bottom: 2rem;
   margin-left: 0;
   font-family: 'Space Grotesk', sans-serif;
+  span {
+    color: #000;
+    font-weight: 500;
+  }
 
   /* 4K - 2560px */
   @media only screen and (max-width: 2560px) {
@@ -172,7 +196,9 @@ export const Content = styled("p")`
   }
   /* Laptop L - 1440px */
   @media only screen and (max-width: 1440px) {
+    text-align: start;
     font-size: 1.125rem;
+    padding-right: 1rem;
     width: 100%;
   }
   /* Laptop - 1024px */
