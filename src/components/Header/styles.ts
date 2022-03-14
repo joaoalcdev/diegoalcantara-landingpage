@@ -192,9 +192,9 @@ export const Span = styled("span")`
   &:hover,
   &:active,
   &:focus {
-    color: red;
+    color: #041B55;
     text-underline-position: under;
-    text-decoration: red wavy underline;
+    text-decoration: #041B55 wavy underline;
   }
 
   a {
