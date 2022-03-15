@@ -14,7 +14,7 @@ import {
 
 const RightBlock = ({
   title,
-  content,
+  // content,
   button,
   icon,
   t,
