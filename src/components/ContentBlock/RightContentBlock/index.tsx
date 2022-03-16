@@ -33,7 +33,7 @@ const RightBlock = ({
         <Col lg={12} md={11} sm={11} xs={24}>
           <ContentWrapper>
             <h6>{t(title)}<span>.</span></h6>
-            <Content>Todos os conteúdos, a ordem e a forma <span>que você deve estudar os conteúdos do ENEM que me levaram a aprovação em Medicina na Federal as 18 anos.</span></Content>
+            <Content>Vou te mostrar a ordem e formas de estudo para o ENEM que me<span> levaram a aprovação em Medicina na Universidade Federal.</span></Content>
             {/* <Content>{t(content)}</Content> */}
             <ButtonWrapper>
               {typeof button === "object" &&
