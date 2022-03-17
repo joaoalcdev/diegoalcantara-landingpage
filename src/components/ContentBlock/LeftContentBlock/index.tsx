@@ -1,6 +1,7 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
+import { Button } from "../../../common/Button";
 import { ContentBlockProps } from "../types";
 import { Fade } from "react-awesome-reveal";
 import {
@@ -9,6 +10,7 @@ import {
   ContentWrapper,
   ServiceWrapper,
   MinTitle,
+  ButtonWrapper,
   MinPara,
   Ellipse,
 } from "./styles";
@@ -16,6 +18,7 @@ import {
 const LeftContentBlock = ({
   icon,
   title,
+  btnContent,
   content,
   section,
   t,
@@ -25,7 +28,7 @@ const LeftContentBlock = ({
     <LeftContentSection>
       <Fade direction="left">
         <Row justify="space-between" align="middle" id={id}>
-          <Col lg={9} md={11} sm={12} xs={24}>
+          <Col lg={11} md={11} sm={12} xs={24}>
             <SvgIcon src={icon} width="100%" height="100%" />
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
@@ -46,12 +49,22 @@ const LeftContentBlock = ({
                     })}
                 </Row>
               </ServiceWrapper>
+              {/* <a href="https://starlink.com" target="home"> */}
+                <ButtonWrapper>
+                  <Button
+                    key={id}
+                    fixedWidth={true}
+                  >
+                    {t(btnContent)}
+                  </Button>
+                </ButtonWrapper>
+              {/* </a> */}
             </ContentWrapper>
           </Col>
         </Row>
       </Fade>
       <Ellipse />
-    </LeftContentSection>
+    </LeftContentSection >
   );
 };
 

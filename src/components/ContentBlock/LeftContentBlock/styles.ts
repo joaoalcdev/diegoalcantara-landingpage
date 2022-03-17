@@ -7,6 +7,11 @@ export const LeftContentSection = styled("section")`
   @media only screen and (max-width: 1024px) {
     padding: 4rem 0 4rem;
   }
+
+  img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
 `;
 
 export const Content = styled("p")`
@@ -35,6 +40,7 @@ export const ContentWrapper = styled("div")`
   @media only screen and (max-width: 1440px) {
     h6 {
       padding-top: 3rem;
+      font-weight: 700;
       text-align: start;
       font-size: 2.725rem;
       width: 100%;
@@ -113,6 +119,41 @@ export const MinTitle = styled("p")`
 export const MinPara = styled("p")`
   font-size: 13px;
 `;
+
+export const ButtonWrapper = styled("div")`
+  display: flex;
+  justify-content: start;
+  max-width: 100%;
+  
+  @media screen and (min-width: 1024px) {
+    max-width: 80%;
+  }
+  /* 4K - 2560px */
+  @media only screen and (max-width: 2560px) {}
+  /* Laptop L - 1440px */
+  @media only screen and (max-width: 1440px) {}
+  /* Laptop - 1024px */
+  @media only screen and (max-width: 1024px) {}
+  /* Tablet - 768px */
+  @media only screen and (max-width: 768px) {}
+    /* Mobile L - 425px */
+  @media only screen and (max-width: 425px) {
+    justify-content: center;
+  }
+  /* Mobile M - 375px */
+  @media only screen and (max-width: 375px) {
+    justify-content: center;
+  }
+  /* Mobile S - 320px */
+  @media only screen and (max-width: 320px) {
+    justify-content: center;
+  }
+
+  /* button:last-child {
+    margin-left: 20px;
+  } */
+`;
+
 
 export const Ellipse = styled("span")`
   /* background: #1464F6; */
