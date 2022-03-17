@@ -1,7 +1,7 @@
 import { lazy } from "react";
 import HomeContent from "../../content/HomeContent.json";
 // import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-// import AboutContent from "../../content/AboutContent.json";
+import ContentProduct from "../../content/ContentProduct.json";
 // import MissionContent from "../../content/MissionContent.json";
 import AboutMeContent from "../../content/AboutMeContent.json";
 // import ProductContent from "../../content/ProductContent.json";
@@ -17,33 +17,37 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
+      {/* HOME SECTION */}
       <ContentBlock
         type="right"
         title={HomeContent.title}
         content={HomeContent.text}
         button={HomeContent.button}
         icon="home-bg.webp"
-        id="home"
+        id="home" btnContent={""}
       />
+      {/* PRODUCT SECTION */}
+      <ContentBlock
+        type="left"
+        title={ContentProduct.title}
+        content={ContentProduct.text}
+        section={ContentProduct.section}
+        icon="home-bg.webp"
+        id="about" btnContent={"QUERO ADQUIRIR O MATERIAL"}
+      />
+      {/* ABOUT ME SECTION */}
       <ContentBlock
         type="rightcustom"
         title={AboutMeContent.title}
         content={AboutMeContent.text}
         icon="about-me.svg"
-        id="about"
+        id="about" btnContent={""}
       />
+      {/* CENTRED SECTION */}
       {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-      /> */}
-      {/* <ContentBlock
-        type="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="about-me.png"
-        id="about"
       /> */}
       {/* <ContentBlock
         type="right"
