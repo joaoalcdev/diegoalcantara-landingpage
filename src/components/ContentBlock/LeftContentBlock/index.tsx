@@ -3,7 +3,7 @@ import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
 import { Button } from "../../../common/Button";
 import { ContentBlockProps } from "../types";
-import { Fade } from "react-awesome-reveal";
+// import { Fade } from "react-awesome-reveal";
 import {
   LeftContentSection,
   Content,
@@ -26,7 +26,7 @@ const LeftContentBlock = ({
 }: ContentBlockProps) => {
   return (
     <LeftContentSection>
-      <Fade direction="left">
+      {/* <Fade direction="left"> */}
         <Row justify="space-between" align="top" id={id}>
           <Col lg={10} md={11} sm={12} xs={24}>
             <SvgIcon src={icon} width="100%" height="100%" />
@@ -64,7 +64,7 @@ const LeftContentBlock = ({
             </ContentWrapper>
           </Col>
         </Row>
-      </Fade>
+      {/* </Fade> */}
       <Ellipse />
     </LeftContentSection >
   );
