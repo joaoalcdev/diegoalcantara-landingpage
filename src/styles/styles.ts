@@ -61,6 +61,33 @@ export const Styles = createGlobalStyle`
         overflow-x: hidden;
     }
 
+    img {
+        user-drag: none;  
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    a {
+        user-drag: none;  
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    button {
+        user-drag: none;  
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
     /* a:hover {
         color: #1890ff;
     } */
