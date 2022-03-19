@@ -30,7 +30,7 @@ const Home = () => {
       <ContentBlock
         type="left"
         title={ContentProduct.title}
-        content={ContentProduct.text}
+        content={ContentProduct.text} 
         section={ContentProduct.section}
         icon="home-bg.webp"
         id="about" btnContent={"QUERO ADQUIRIR O MATERIAL"}
