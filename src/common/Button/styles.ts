@@ -9,7 +9,7 @@ export const StyledButton = styled("button")<any>`
   width: 100%;
   padding: 20px 32px;
   cursor: pointer;
-  margin-top: 0.625rem;
+  /* margin-top: 0.625rem; */
   max-width: 300px;
   transition: all 0.3s ease-in-out;
   border: 4px solid #1464F6;
