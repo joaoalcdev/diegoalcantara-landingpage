@@ -124,10 +124,15 @@ export const ButtonWrapper = styled("div")`
   display: flex;
   justify-content: start;
   max-width: 100%;
+  color: #fff;
 
   a {
-    background: red;
+    background: #1464F6;
     padding: auto;
+
+    span {
+      color: #fff;
+    }
   }
   
   @media screen and (min-width: 1024px) {
