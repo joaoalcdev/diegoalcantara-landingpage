@@ -8,10 +8,10 @@ import {
   LeftContentSection,
   Content,
   ContentWrapper,
-  ServiceWrapper,
-  MinTitle,
+  // ServiceWrapper,
+  // MinTitle,
   ButtonWrapper,
-  MinPara,
+  // MinPara,
   Ellipse,
 } from "./styles";
 
@@ -27,15 +27,15 @@ const LeftContentBlock = ({
   return (
     <LeftContentSection>
       <Fade direction="left">
-        <Row justify="space-between" align="middle" id={id}>
-          <Col lg={11} md={11} sm={12} xs={24}>
+        <Row justify="space-between" align="top" id={id}>
+          <Col lg={10} md={11} sm={12} xs={24}>
             <SvgIcon src={icon} width="100%" height="100%" />
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
-              <ServiceWrapper>
+              {/* <ServiceWrapper>
                 <Row justify="space-between">
                   {typeof section === "object" &&
                     section.map((item: any, id: number) => {
@@ -48,15 +48,15 @@ const LeftContentBlock = ({
                       );
                     })}
                 </Row>
-              </ServiceWrapper>
+              </ServiceWrapper> */}
               {/* <a href="https://starlink.com" target="home"> */}
               <ButtonWrapper>
-                <a href="https://www.google.com">
+                <a href="https://www.google.com" target="_blank" rel="noreferrer">
                   <Button
                     key={id}
                     fixedWidth={true}
                   >
-                    {t(btnContent)}
+                    <span>{t(btnContent)}</span>
                   </Button>
                 </a>
               </ButtonWrapper>
