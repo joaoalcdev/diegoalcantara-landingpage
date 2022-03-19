@@ -50,14 +50,16 @@ const LeftContentBlock = ({
                 </Row>
               </ServiceWrapper>
               {/* <a href="https://starlink.com" target="home"> */}
-                <ButtonWrapper>
+              <ButtonWrapper>
+                <a href="https://www.google.com">
                   <Button
                     key={id}
                     fixedWidth={true}
                   >
                     {t(btnContent)}
                   </Button>
-                </ButtonWrapper>
+                </a>
+              </ButtonWrapper>
               {/* </a> */}
             </ContentWrapper>
           </Col>
