@@ -23,6 +23,12 @@ export const ContentWrapper = styled("div")`
   max-width: 540px;
   font-family: 'Space Grotesk', sans-serif;
 
+  h6 {
+    span {
+      color: #1464F6;
+    }
+  }
+
   @media only screen and (max-width: 575px) {
     padding-top: 4rem;
   }
