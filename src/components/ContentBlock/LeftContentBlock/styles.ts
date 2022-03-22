@@ -15,7 +15,54 @@ export const LeftContentSection = styled("section")`
 `;
 
 export const Content = styled("p")`
-  margin: 1.5rem 0 2rem 0;
+  margin-top: 1.5rem;
+  margin-right: 0;
+  margin-bottom: 2rem;
+  margin-left: 0;
+  font-family: 'Space Grotesk', sans-serif;
+
+  /* 4K - 2560px */
+  @media only screen and (max-width: 2560px) {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  /* Laptop L - 1440px */
+  @media only screen and (max-width: 1440px) {
+    text-align: start;
+    font-size: 1.125rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+  /* Laptop - 1024px */
+  @media only screen and (max-width: 1024px) {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  /* Tablet - 768px */
+  @media only screen and (max-width: 768px) {
+    font-size: 0.725rem;
+    width: 100%;
+  }
+    /* Mobile L - 425px */
+  @media only screen and (max-width: 425px) {
+    text-align: center;
+    font-size: 0.950rem;
+    width: 100%;
+  }
+  /* Mobile M - 375px */
+  @media only screen and (max-width: 375px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  /* Mobile S - 320px */
+  @media only screen and (max-width: 320px) {
+    text-align: center;
+    font-size: 0.875rem;
+    width: 100%;
+  }
 `;
 
 export const ContentWrapper = styled("div")`
