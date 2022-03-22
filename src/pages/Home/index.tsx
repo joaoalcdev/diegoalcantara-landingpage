@@ -1,9 +1,10 @@
 import { lazy } from "react";
 import HomeContent from "../../content/HomeContent.json";
-// import MiddleBlockContent from "../../content/MiddleBlockContent.json";
+import TestimonialsBlockContent from "../../content/TestimonialsBlockContent.json";
 import ContentProduct from "../../content/ContentProduct.json";
 // import MissionContent from "../../content/MissionContent.json";
 import AboutMeContent from "../../content/AboutMeContent.json";
+import Testimonials from "../../components/MiddleBlock";
 // import ProductContent from "../../content/ProductContent.json";
 // import ContactContent from "../../content/ContactContent.json";
 
@@ -30,7 +31,7 @@ const Home = () => {
       <ContentBlock
         type="left"
         title={ContentProduct.title}
-        content={ContentProduct.text} 
+        content={ContentProduct.text}
         section={ContentProduct.section}
         icon="home-bg.webp"
         id="about" btnContent={"QUERO ADQUIRIR O MATERIAL"}
@@ -44,11 +45,21 @@ const Home = () => {
         id="about" btnContent={""}
       />
       {/* CENTRED SECTION */}
-      {/* <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      /> */}
+      <Testimonials
+        title={TestimonialsBlockContent.title}
+        content={TestimonialsBlockContent.text}
+        button={TestimonialsBlockContent.button}
+        clientName01={TestimonialsBlockContent.clientTitle01}
+        clientCourse01={TestimonialsBlockContent.clientCourse01}
+        clientName02={TestimonialsBlockContent.clientTitle02}
+        clientCourse02={TestimonialsBlockContent.clientCourse02}
+        clientName03={TestimonialsBlockContent.clientTitle03}
+        clientCourse03={TestimonialsBlockContent.clientCourse03}
+        clientName04={TestimonialsBlockContent.clientTitle04}
+        clientCourse04={TestimonialsBlockContent.clientCourse04}
+        clientName05={TestimonialsBlockContent.clientTitle05}
+        clientCourse05={TestimonialsBlockContent.clientCourse05}
+      />
       {/* <ContentBlock
         type="right"
         title={MissionContent.title}
