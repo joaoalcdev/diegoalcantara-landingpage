@@ -89,7 +89,7 @@ export const Styles = createGlobalStyle`
     }
 
     /* a:hover {
-        color: #1890ff;
+        color: #1464F6;
     } */
 
     input,
@@ -144,10 +144,10 @@ export const Styles = createGlobalStyle`
     /* a {
         text-decoration: none;
         outline: none;
-        color: #1890ff;
+        color: #1464F6;
 
         :hover {
-            color: #1890ff;
+            color: #1464F6;
         }
     } */
     
