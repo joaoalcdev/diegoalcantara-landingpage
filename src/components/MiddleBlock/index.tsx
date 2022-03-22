@@ -33,12 +33,12 @@ interface TestimonialsBlockProps {
 }
 
 const Testimonials = ({ title, content, button, t, clientName01, clientName02, clientName03, clientName04, clientName05, clientCourse01, clientCourse02, clientCourse03, clientCourse04, clientCourse05 }: TestimonialsBlockProps) => {
-  const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
+  // const scrollTo = (id: string) => {
+  //   const element = document.getElementById(id) as HTMLDivElement;
+  //   element.scrollIntoView({
+  //     behavior: "smooth",
+  //   });
+  // };
   return (
     <TestimonialsBlockSection>
       {/* <Slide direction="up"> */}
