@@ -11,7 +11,7 @@ import AboutMeContent from "../../content/AboutMeContent.json";
 // const Contact = lazy(() => import("../../components/ContactForm"));
 // const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 // import Testimonials from "../../components/Testimonials";
-const Testimonials = lazy(() => import("../../components/Testimonials"));
+const TestimonialSection = lazy(() => import("../../components/TestimonialSection"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -47,7 +47,7 @@ const Home = () => {
         id="about" btnContent={""}
       />
       {/* CENTRED SECTION */}
-      <Testimonials
+      <TestimonialSection
         title={TestimonialsBlockContent.title}
         content={TestimonialsBlockContent.text}
         button={TestimonialsBlockContent.button}
