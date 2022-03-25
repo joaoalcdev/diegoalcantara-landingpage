@@ -2,14 +2,16 @@ import { lazy } from "react";
 import HomeContent from "../../content/HomeContent.json";
 import TestimonialsBlockContent from "../../content/TestimonialsBlockContent.json";
 import ContentProduct from "../../content/ContentProduct.json";
-// import MissionContent from "../../content/MissionContent.json";
 import AboutMeContent from "../../content/AboutMeContent.json";
-import Testimonials from "../../components/MiddleBlock";
+// import MissionContent from "../../content/MissionContent.json";
+// import Testimonials from "../../components/MiddleBlock";
 // import ProductContent from "../../content/ProductContent.json";
 // import ContactContent from "../../content/ContactContent.json";
 
 // const Contact = lazy(() => import("../../components/ContactForm"));
 // const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
+// import Testimonials from "../../components/Testimonials";
+const Testimonials = lazy(() => import("../../components/Testimonials"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
