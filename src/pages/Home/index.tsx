@@ -49,16 +49,26 @@ const Home = () => {
         title={TestimonialsBlockContent.title}
         content={TestimonialsBlockContent.text}
         button={TestimonialsBlockContent.button}
+
         clientName01={TestimonialsBlockContent.clientTitle01}
         clientCourse01={TestimonialsBlockContent.clientCourse01}
+        clientFeedback01={TestimonialsBlockContent.clientFeedback01}
+
         clientName02={TestimonialsBlockContent.clientTitle02}
         clientCourse02={TestimonialsBlockContent.clientCourse02}
+        clientFeedback02={TestimonialsBlockContent.clientFeedback02}
+
         clientName03={TestimonialsBlockContent.clientTitle03}
         clientCourse03={TestimonialsBlockContent.clientCourse03}
+        clientFeedback03={TestimonialsBlockContent.clientFeedback03}
+
         clientName04={TestimonialsBlockContent.clientTitle04}
         clientCourse04={TestimonialsBlockContent.clientCourse04}
+        clientFeedback04={TestimonialsBlockContent.clientFeedback04}
+
         clientName05={TestimonialsBlockContent.clientTitle05}
         clientCourse05={TestimonialsBlockContent.clientCourse05}
+        clientFeedback05={TestimonialsBlockContent.clientFeedback05}
       />
       {/* <ContentBlock
         type="right"
