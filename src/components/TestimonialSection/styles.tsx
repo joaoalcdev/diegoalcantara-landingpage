@@ -486,6 +486,7 @@ export const SliderContainer = styled("div")`
   }
 
     .container-client {
+      width: 100%;
       display: flex;
       flex-direction: column;
       color: #1464F6;
@@ -498,6 +499,7 @@ export const SliderContainer = styled("div")`
       font-family: 'Space Grotesk', sans-serif;
 
       h1.client {
+      width: 100%;
       display: flex;
       flex-direction: column;
       color: #1464F6;
@@ -510,6 +512,7 @@ export const SliderContainer = styled("div")`
       font-size: 1.5rem;
     }
     h1.course {
+      width: 100%;
       display: flex;
       flex-direction: column;
       color: rgb(170, 169, 169);
@@ -617,7 +620,7 @@ export const SliderFeedback = styled("p")`
       }
     }
   } */
-  /* Mobile L - 425px */
+  /* Tablet - 768px */
   @media only screen and (max-width: 768px) {
     display: flex;
     position: relative;
@@ -629,6 +632,54 @@ export const SliderFeedback = styled("p")`
     align-items: center;
     text-align: center;
     width: 50%;
+    height: 50%;
+    font-size: 0.975rem;
+    flex-direction: column;
+
+    .read-more-less--more, .read-more-less--less {
+      width: 100%;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      position: absolute;
+      background-color: #1464F6;
+      color: #062356;
+      border-radius: 6px;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: Bold;
+      font-size: 1rem;
+      font-style: normal;
+      flex-direction: column;
+      order: 300;
+      transition: all 0.2s;
+
+      :hover {
+        background-color: #062356;
+        color: #fff;
+      }
+      :active {
+        background-color: #0b357d;
+        color: #fff;
+      }
+  }
+}
+  /* Mobile L - 425px */
+  @media only screen and (max-width: 425px) {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-left: -2rem; */
+    align-items: center;
+    text-align: center;
+    width: 95%;
     height: 50%;
     font-size: 0.975rem;
     flex-direction: column;
@@ -781,7 +832,7 @@ export const ContentWrapper = styled("div")`
       font-size: 2rem;
       width: 100%;
       max-width: 425px;
-       line-height: 1.25;
+      line-height: 1.25;
     }
   }
   /* Mobile M - 375px */
