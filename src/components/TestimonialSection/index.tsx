@@ -3,7 +3,7 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 // import { Slide } from "react-awesome-reveal";
 // import { Button } from "../../common/Button";
-import { TestimonialsBlockSection, Content, ContentWrapper, SliderContainer, SliderFeedback } from "./styles";
+import { TestimonialsBlockSection, Content, ContentWrapper, SliderContainer, SliderFeedback, SpanDivider } from "./styles";
 
 
 import ReactReadMoreReadLess from "react-read-more-read-less";
@@ -74,7 +74,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
         centeredSlides={true}
         rewind={true}
         autoplay={{
-          delay: 2500,
+          delay: 2500000,
           disableOnInteraction: false,
         }}
         navigation={true}
@@ -89,7 +89,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
           <SliderContainer>
             <Row justify="center" align="middle">
               <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png" />
+                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
                 <h1 className="client">{t(clientName01)}</h1>
                 <h1 className="course">{t(clientCourse01)}</h1>
               </div>
@@ -97,7 +97,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
             <SliderFeedback>
               <q className="blockquotes">
                 <ReactReadMoreReadLess
-                  charLimit={200}
+                  charLimit={100}
                   ellipsis={"..."}
                   readMoreText={"Ler mais"}
                   readLessText={"Ocultar"}
@@ -115,7 +115,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
           <SliderContainer>
             <Row justify="center" align="middle">
               <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png" />
+                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
                 <h1 className="client">{t(clientName02)}</h1>
                 <h1 className="course">{t(clientCourse02)}</h1>
               </div>
@@ -123,7 +123,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
             <SliderFeedback>
               <q className="blockquotes">
                 <ReactReadMoreReadLess
-                  charLimit={201}
+                  charLimit={100}
                   ellipsis={"..."}
                   readMoreText={"Ler mais"}
                   readLessText={"Ocultar"}
@@ -141,7 +141,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
           <SliderContainer>
             <Row justify="center" align="middle">
               <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png" />
+                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
                 <h1 className="client">{t(clientName03)}</h1>
                 <h1 className="course">{t(clientCourse03)}</h1>
               </div>
@@ -149,7 +149,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
             <SliderFeedback>
               <q className="blockquotes">
                 <ReactReadMoreReadLess
-                  charLimit={131}
+                  charLimit={100}
                   ellipsis={"..."}
                   readMoreText={"Ler mais"}
                   readLessText={"Ocultar"}
@@ -167,7 +167,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
           <SliderContainer>
             <Row justify="center" align="middle">
               <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png" />
+                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
                 <h1 className="client">{t(clientName04)}</h1>
                 <h1 className="course">{t(clientCourse04)}</h1>
               </div>
@@ -193,7 +193,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
           <SliderContainer>
             <Row justify="center" align="middle">
               <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png" />
+                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
                 <h1 className="client">{t(clientName05)}</h1>
                 <h1 className="course">{t(clientCourse05)}</h1>
               </div>
@@ -214,6 +214,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
             </SliderFeedback>
           </SliderContainer>
         </SwiperSlide>
+        <SpanDivider></SpanDivider>
       </Swiper>
     </TestimonialsBlockSection >
   );
