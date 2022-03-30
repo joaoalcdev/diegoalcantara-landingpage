@@ -67,6 +67,19 @@ export const RightBlockContainer = styled("section")`
 
     img {
       display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .justify-img {
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 `;

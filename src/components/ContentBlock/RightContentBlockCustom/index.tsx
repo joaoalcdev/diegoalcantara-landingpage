@@ -51,7 +51,7 @@ const RightBlockCustom = ({
             </ButtonWrapper>
           </ContentWrapper>
         </Col>
-        <Col lg={10} md={11} sm={12} xs={12}>
+        <Col lg={10} md={11} sm={12} xs={24} className="justify-img">
           <SvgIcon src={icon} width="100%" height="100%" />
         </Col>
       </Row>
