@@ -5,6 +5,9 @@ import { withTranslation } from "react-i18next";
 // import { Button } from "../../common/Button";
 import { TestimonialsBlockSection, Content, ContentWrapper, SliderContainer, SliderFeedback } from "./styles";
 
+
+import ReactReadMoreReadLess from "react-read-more-read-less";
+
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from 'swiper';
 
@@ -43,12 +46,7 @@ interface TestimonialsBlockProps {
 }
 
 const TestimonialSection = ({ title, content, button, t, clientName01, clientName02, clientName03, clientName04, clientName05, clientCourse01, clientCourse02, clientCourse03, clientCourse04, clientCourse05, clientFeedback01, clientFeedback02, clientFeedback03, clientFeedback04, clientFeedback05 }: TestimonialsBlockProps) => {
-  // const scrollTo = (id: string) => {
-  //   const element = document.getElementById(id) as HTMLDivElement;
-  //   element.scrollIntoView({
-  //     behavior: "smooth",
-  //   });
-  // };
+
   return (
     <TestimonialsBlockSection>
       {/* <Slide direction="up"> */}
@@ -76,7 +74,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
         centeredSlides={true}
         rewind={true}
         autoplay={{
-          delay: 500000,
+          delay: 2500,
           disableOnInteraction: false,
         }}
         navigation={true}
@@ -96,7 +94,20 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
                 <h1 className="course">{t(clientCourse01)}</h1>
               </div>
             </Row>
-            <SliderFeedback><q>{t(clientFeedback01)}</q></SliderFeedback>
+            <SliderFeedback>
+              <q className="blockquotes">
+                <ReactReadMoreReadLess
+                  charLimit={200}
+                  ellipsis={"..."}
+                  readMoreText={"Ler mais"}
+                  readLessText={"Ocultar"}
+                  readMoreClassName="read-more-less--more"
+                  readLessClassName="read-more-less--less"
+                >
+                  {t(clientFeedback01)}
+                </ReactReadMoreReadLess>
+              </q>
+            </SliderFeedback>
           </SliderContainer>
         </SwiperSlide>
         {/* slider 02 */}
@@ -109,7 +120,20 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
                 <h1 className="course">{t(clientCourse02)}</h1>
               </div>
             </Row>
-            <SliderFeedback><q>{t(clientFeedback02)}</q></SliderFeedback>
+            <SliderFeedback>
+              <q className="blockquotes">
+                <ReactReadMoreReadLess
+                  charLimit={201}
+                  ellipsis={"..."}
+                  readMoreText={"Ler mais"}
+                  readLessText={"Ocultar"}
+                  readMoreClassName="read-more-less--more"
+                  readLessClassName="read-more-less--less"
+                >
+                  {t(clientFeedback02)}
+                </ReactReadMoreReadLess>
+              </q>
+            </SliderFeedback>
           </SliderContainer>
         </SwiperSlide>
         {/* slider 03 */}
@@ -122,7 +146,20 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
                 <h1 className="course">{t(clientCourse03)}</h1>
               </div>
             </Row>
-            <SliderFeedback><q>{t(clientFeedback03)}</q></SliderFeedback>
+            <SliderFeedback>
+              <q className="blockquotes">
+                <ReactReadMoreReadLess
+                  charLimit={131}
+                  ellipsis={"..."}
+                  readMoreText={"Ler mais"}
+                  readLessText={"Ocultar"}
+                  readMoreClassName="read-more-less--more"
+                  readLessClassName="read-more-less--less"
+                >
+                  {t(clientFeedback03)}
+                </ReactReadMoreReadLess>
+              </q>
+            </SliderFeedback>
           </SliderContainer>
         </SwiperSlide>
         {/* slider 04 */}
@@ -135,7 +172,20 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
                 <h1 className="course">{t(clientCourse04)}</h1>
               </div>
             </Row>
-            <SliderFeedback><q>{t(clientFeedback04)}</q></SliderFeedback>
+            <SliderFeedback>
+              <q className="blockquotes">
+                <ReactReadMoreReadLess
+                  charLimit={100}
+                  ellipsis={"..."}
+                  readMoreText={"Ler mais"}
+                  readLessText={"Ocultar"}
+                  readMoreClassName="read-more-less--more"
+                  readLessClassName="read-more-less--less"
+                >
+                  {t(clientFeedback04)}
+                </ReactReadMoreReadLess>
+              </q>
+            </SliderFeedback>
           </SliderContainer>
         </SwiperSlide>
         {/* slider 05 */}
@@ -148,7 +198,20 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
                 <h1 className="course">{t(clientCourse05)}</h1>
               </div>
             </Row>
-            <SliderFeedback><q>{t(clientFeedback05)}</q></SliderFeedback>
+            <SliderFeedback>
+              <q className="blockquotes">
+                <ReactReadMoreReadLess
+                  charLimit={100}
+                  ellipsis={"..."}
+                  readMoreText={"Ler mais"}
+                  readLessText={"Ocultar"}
+                  readMoreClassName="read-more-less--more"
+                  readLessClassName="read-more-less--less"
+                >
+                  {t(clientFeedback05)}
+                </ReactReadMoreReadLess>
+              </q>
+            </SliderFeedback>
           </SliderContainer>
         </SwiperSlide>
       </Swiper>
