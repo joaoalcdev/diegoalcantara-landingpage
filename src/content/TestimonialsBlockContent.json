@@ -1,6 +1,6 @@
 {
-    "title": "Testimonials Title",
-    "text": "See what people are saying.",
+    "title": "Depoimentos",
+    "text": "Veja o que dizem meus alunos",
     "button": "CTA BUTTON",
     
     "clientTitle01": "Fernanda Reis",
@@ -9,7 +9,7 @@
 
     "clientTitle02": "Clemeson Martins",
     "clientCourse02": "Eng. de Produção - UFC",
-    "clientFeedback02": "O PDF além de mostrar uma forma eficaz, que foi utilizada pelo autor para conseguir ter um bom desempenho no ENEM, nele está disponibilizado ideias e fatos que são uteis para um estudo mais direcionado e organizado para o ENEM. Um dos pontos mais forte é que no PDF não fala apenas os conteúdos que são cobrados, mas como e de qual forma eles são cobrados e quais os mais cobrados, exibindo um breve resuminho para compreensão e posteriormente mostrando um exemplo real de uma questão das provas passadas.",
+    "clientFeedback02": "O PDF além de mostrar uma forma eficaz, que foi utilizada pelo autor para conseguir ter um bom desempenho no ENEM, nele está disponibilizado ideias e fatos que são uteis para um estudo mais direcionado e organizado para o ENEM.",
 
     "clientTitle03": "Erick Bruno",
     "clientCourse03": "C&T - Ufersa",
@@ -17,10 +17,10 @@
 
     "clientTitle04": "Client 04",
     "clientCourse04": "Med 04",
-    "clientFeedback04": "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM",
+    "clientFeedback04": "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM",
 
     "clientTitle05": "Client 05",
     "clientCourse05": "Med 05",
-    "clientFeedback05": "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM"
+    "clientFeedback05": "LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM"
   }
   
