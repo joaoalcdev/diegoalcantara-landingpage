@@ -270,16 +270,42 @@ export const SliderFeedback = styled("p")`
     flex-direction: column;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: -2rem;
+    /* margin-left: -2rem; */
     align-items: center;
     text-align: justify;
-    width: 50%;
-    height: 70%;
+    width: 55%;
+    height: 50%;
     font-size: 1.25rem;
     flex-direction: column;
     color: #1464F6;
     font-style: italic;
     font-family: 'Space Grotesk', sans-serif;
+    
+    .read-more-less--more, .read-more-less--less {
+      background-color: #1464F6;
+      padding: 0.5rem;
+      border-radius: 6px;
+      color: #062356;
+      display: flex;
+      position: absolute;
+      margin-top: 0.5rem;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: Bold;
+      font-size: 1rem;
+      font-style: normal;
+      flex-direction: column;
+      order: 300;
+      transition: all 0.2s;
+
+      :hover {
+        background-color: #062356;
+        color: #fff;
+      }
+      :active {
+        background-color: #0b357d;
+        color: #fff;
+      }
+    }
 `
 
 export const Content = styled("p")`
