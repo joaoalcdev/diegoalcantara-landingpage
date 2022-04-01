@@ -36,19 +36,21 @@ const RightBlock = ({
             <Content>Vou te mostrar a ordem e formas de estudo para o ENEM que me<span> levaram a aprovação em Medicina na Universidade Federal.</span></Content>
             {/* <Content>{t(content)}</Content> */}
             <ButtonWrapper>
-              {typeof button === "object" &&
-                button.map((item: any, id: number) => {
-                  return (
-                    <Button
-                      key={id}
-                      color={item.color}
-                      fixedWidth={true}
-                      onClick={() => scrollTo("about")}
-                    >
-                      {t(item.title)}
-                    </Button>
-                  );
-                })}
+              <a href="https://pay.hotmart.com/next/J68440135M?off=cdaer77b&sck=HOTMART_PRODUCT_PAGE&bid=1648838024608" target="_blank" rel="noreferrer">
+                {typeof button === "object" &&
+                  button.map((item: any, id: number) => {
+                    return (
+                      <Button
+                        key={id}
+                        color={item.color}
+                        fixedWidth={true}
+                        onClick={() => scrollTo("")}
+                      >
+                        {t(item.title)}
+                      </Button>
+                    );
+                  })}
+              </a>
             </ButtonWrapper>
           </ContentWrapper>
         </Col>

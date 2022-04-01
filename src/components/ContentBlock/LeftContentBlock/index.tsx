@@ -50,7 +50,7 @@ const LeftContentBlock = ({
               </Row>
             </ServiceWrapper> */}
             <ButtonWrapper>
-              <a href="https://www.google.com" target="_blank" rel="noreferrer">
+              <a href="https://pay.hotmart.com/next/J68440135M?off=cdaer77b&sck=HOTMART_PRODUCT_PAGE&bid=1648838024608" target="_blank" rel="noreferrer">
                 <Button
                   key={id}
                   fixedWidth={true}

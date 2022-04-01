@@ -44,7 +44,7 @@ const Header = ({ t }: any) => {
           <Span>{t("Contato")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall>
-          <Span><a href="https://www.google.com" target="_blank" rel="noreferrer">{t("ADQUIRIR AGORA")}</a></Span>
+          <Span><a href="https://pay.hotmart.com/next/J68440135M?off=cdaer77b&sck=HOTMART_PRODUCT_PAGE&bid=1648838024608" target="_blank" rel="noreferrer">{t("ADQUIRIR AGORA")}</a></Span>
         </CustomNavLinkSmall>
       </>
     );

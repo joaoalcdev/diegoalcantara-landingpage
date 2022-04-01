@@ -74,7 +74,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
         centeredSlides={true}
         rewind={true}
         autoplay={{
-          delay: 2500000,
+          delay: 2500,
           disableOnInteraction: false,
         }}
         navigation={true}

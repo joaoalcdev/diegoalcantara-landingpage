@@ -554,9 +554,9 @@ export const SliderFeedback = styled("p")`
       display: flex;
       position: absolute;
       background-color: #1464F6;
-      color: #062356;
+      color: #fff;
       border-radius: 6px;
-      padding: 0.5rem;
+      padding: 0.5rem 0.875rem;
       margin-top: 0.5rem;
       font-family: 'Space Grotesk', sans-serif;
       font-weight: Bold;
@@ -646,9 +646,9 @@ export const SliderFeedback = styled("p")`
       margin-right: auto;
       position: absolute;
       background-color: #1464F6;
-      color: #062356;
+      color: #fff;
       border-radius: 6px;
-      padding: 0.5rem;
+      padding: 0.5rem 0.875rem;
       margin-top: 0.5rem;
       font-family: 'Space Grotesk', sans-serif;
       font-weight: Bold;
@@ -694,9 +694,9 @@ export const SliderFeedback = styled("p")`
       margin-right: auto;
       position: absolute;
       background-color: #1464F6;
-      color: #062356;
+      color: #fff;
       border-radius: 6px;
-      padding: 0.5rem;
+      padding: 0.5rem 0.875rem;
       margin-top: 0.5rem;
       font-family: 'Space Grotesk', sans-serif;
       font-weight: Bold;
