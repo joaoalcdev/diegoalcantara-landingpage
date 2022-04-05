@@ -55,7 +55,7 @@ const RightBlock = ({
           </ContentWrapper>
         </Col>
         <Col lg={12} md={11} sm={12} xs={0}>
-          <SvgIcon src={icon} width="90%" height="auto" />
+          <SvgIcon src={icon} width="100%" height="auto" />
         </Col>
       </Row>
       {/* </Fade> */}

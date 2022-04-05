@@ -35,20 +35,6 @@ const LeftContentBlock = ({
           <ContentWrapper>
             <h6>{t(title)}<span>.</span></h6>
             <Content>{t(content)}</Content>
-            {/* <ServiceWrapper>
-              <Row justify="space-between">
-                {typeof section === "object" &&
-                  section.map((item: any, id: number) => {
-                    return (
-                      <Col key={id} span={11}>
-                        <SvgIcon src={item.icon} width="60px" height="60px" />
-                        <MinTitle>{t(item.title)}</MinTitle>
-                        <MinPara>{t(item.content)}</MinPara>
-                      </Col>
-                    );
-                  })}
-              </Row>
-            </ServiceWrapper> */}
             <ButtonWrapper>
               <a href="https://pay.hotmart.com/next/J68440135M?off=cdaer77b&sck=HOTMART_PRODUCT_PAGE&bid=1648838024608" target="_blank" rel="noreferrer">
                 <Button
