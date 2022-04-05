@@ -74,7 +74,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
         centeredSlides={true}
         rewind={true}
         autoplay={{
-          delay: 2500,
+          delay: 250000,
           disableOnInteraction: false,
         }}
         navigation={true}
@@ -89,7 +89,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
           <SliderContainer>
             <Row justify="center" align="middle">
               <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
+                <img src="/img/svg/fernanda-reis.webp" alt="avatar" height="499" width="499" />
                 <h1 className="client">{t(clientName01)}</h1>
                 <h1 className="course">{t(clientCourse01)}</h1>
               </div>
@@ -115,7 +115,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
           <SliderContainer>
             <Row justify="center" align="middle">
               <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
+                <img src="/img/svg/clemeson-martins.svg" alt="avatar" height="499" width="499" />
                 <h1 className="client">{t(clientName02)}</h1>
                 <h1 className="course">{t(clientCourse02)}</h1>
               </div>
@@ -141,7 +141,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
           <SliderContainer>
             <Row justify="center" align="middle">
               <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
+                <img src="/img/svg/erick-bruno.webp" alt="avatar" height="499" width="499" />
                 <h1 className="client">{t(clientName03)}</h1>
                 <h1 className="course">{t(clientCourse03)}</h1>
               </div>
@@ -167,7 +167,7 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
           <SliderContainer>
             <Row justify="center" align="middle">
               <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
+                <img src="/img/svg/vinicius-almada.webp" alt="avatar" height="499" width="499" />
                 <h1 className="client">{t(clientName04)}</h1>
                 <h1 className="course">{t(clientCourse04)}</h1>
               </div>
@@ -183,32 +183,6 @@ const TestimonialSection = ({ title, content, button, t, clientName01, clientNam
                   readLessClassName="read-more-less--less"
                 >
                   {t(clientFeedback04)}
-                </ReactReadMoreReadLess>
-              </q>
-            </SliderFeedback>
-          </SliderContainer>
-        </SwiperSlide>
-        {/* slider 05 */}
-        <SwiperSlide className="swiper-slide">
-          <SliderContainer>
-            <Row justify="center" align="middle">
-              <div className="container-client">
-                <img src="https://www.w3schools.com/w3images/avatar6.png"  alt="avatar"/>
-                <h1 className="client">{t(clientName05)}</h1>
-                <h1 className="course">{t(clientCourse05)}</h1>
-              </div>
-            </Row>
-            <SliderFeedback>
-              <q className="blockquotes">
-                <ReactReadMoreReadLess
-                  charLimit={100}
-                  ellipsis={"..."}
-                  readMoreText={"Ler mais"}
-                  readLessText={"Ocultar"}
-                  readMoreClassName="read-more-less--more"
-                  readLessClassName="read-more-less--less"
-                >
-                  {t(clientFeedback05)}
                 </ReactReadMoreReadLess>
               </q>
             </SliderFeedback>
