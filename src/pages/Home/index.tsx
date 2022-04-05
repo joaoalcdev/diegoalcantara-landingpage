@@ -35,7 +35,7 @@ const Home = () => {
         title={ContentProduct.title}
         content={ContentProduct.text}
         section={ContentProduct.section}
-        icon="home-bg.webp"
+        icon="graphs.svg"
         id="about" btnContent={"QUERO ADQUIRIR O MATERIAL"}
       />
       {/* ABOUT ME SECTION */}
