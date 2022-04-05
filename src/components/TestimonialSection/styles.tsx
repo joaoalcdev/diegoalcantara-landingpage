@@ -130,11 +130,11 @@ export const SliderFeedback = styled("p")`
       order: 300;
       transition: all 0.2s;
 
-      :hover {
+      &:hover {
         background-color: #062356;
         color: #fff;
       }
-      :active {
+      &:active {
         background-color: #0b357d;
         color: #fff;
       }
