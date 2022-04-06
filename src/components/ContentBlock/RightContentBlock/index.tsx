@@ -36,7 +36,10 @@ const RightBlock = ({
             <Content>Vou te mostrar a ordem e formas de estudo para o ENEM que me<span> levaram a aprovação em Medicina na Universidade Federal.</span></Content>
             {/* <Content>{t(content)}</Content> */}
             <ButtonWrapper>
-              <a href="https://pay.hotmart.com/next/J68440135M?off=cdaer77b&sck=HOTMART_PRODUCT_PAGE&bid=1648838024608" target="_blank" rel="noreferrer">
+              <a
+                href="https://pay.hotmart.com/next/J68440135M?off=cdaer77b&sck=HOTMART_PRODUCT_PAGE&bid=1648838024608" target="_blank"
+                rel="noreferrer"
+              >
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
                     return (
@@ -55,7 +58,7 @@ const RightBlock = ({
           </ContentWrapper>
         </Col>
         <Col lg={12} md={11} sm={12} xs={0}>
-          <SvgIcon src={icon} width="100%" height="auto" />
+          <SvgIcon src={icon} width="90%" height="auto" />
         </Col>
       </Row>
       {/* </Fade> */}
