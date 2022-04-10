@@ -15,6 +15,7 @@ import {
   // Chat,
   // Empty,
   FooterContainer,
+  DisableItems,
   // Language,
   // Label,
   // LanguageSwitch,
@@ -51,28 +52,30 @@ const Footer = ({ t }: any) => {
             style={{ paddingTop: "3rem" }}
           >
             {/* <NavLink to="/"> */}
-              <LogoContainer>
-                <SvgIcon
-                  src="logo-footer.svg"
-                  aria-label="footer"
-                  width="101px"
-                  height="64px"
-                />
-              </LogoContainer>
+            <LogoContainer>
+              <SvgIcon
+                src="logo-footer.svg"
+                aria-label="footer"
+                width="101px"
+                height="64px"
+              />
+            </LogoContainer>
             {/* </NavLink> */}
             <FooterContainer>
-              <SocialLink
-                href="https://instagram.com/diegoalcantara.s"
-                src="instagram.svg"
-              />
-              <SocialLink
-                href="https://instagram.com/diegoalcantara.s"
-                src="instagram.svg"
-              />
-              <SocialLink
-                href="https://instagram.com/diegoalcantara.s"
-                src="instagram.svg"
-              />
+              <DisableItems>
+                <SocialLink
+                  href="https://instagram.com/diegoalcantara.s"
+                  src="instagram.svg"
+                />
+                <SocialLink
+                  href="https://instagram.com/diegoalcantara.s"
+                  src="instagram.svg"
+                />
+                <SocialLink
+                  href="https://instagram.com/diegoalcantara.s"
+                  src="instagram.svg"
+                />
+              </DisableItems>
               <SocialLink
                 href="https://instagram.com/diegoalcantara.s"
                 src="instagram.svg"
