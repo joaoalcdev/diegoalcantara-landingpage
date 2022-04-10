@@ -106,6 +106,10 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 2560px;
     }
+
+    span {
+      color: #1464F6;
+    }
   }
   /* Laptop L - 1440px */
   @media only screen and (max-width: 1440px) {
@@ -115,6 +119,10 @@ export const ContentWrapper = styled("div")`
       font-size: 2.725rem;
       width: 100%;
       max-width: 1440px;
+
+      span {
+        color: #1464F6;
+      }
       line-height: 1.20;
     }
   }
@@ -127,6 +135,10 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 1024px;
       line-height: 1.24;
+
+      span {
+        color: #1464F6;
+      }
     }
   }
 
@@ -138,6 +150,10 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 768px;
       line-height: 1.23;
+
+      span {
+        color: #1464F6;
+      }
     }
   }
 
@@ -149,6 +165,10 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 425px;
        line-height: 1.25;
+
+       span {
+         color: #1464F6;
+       }
     }
   }
   
@@ -160,6 +180,10 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 375px;
       line-height: 1.20;
+
+      span {
+        color: #1464F6;
+      }
     }
   }
 
@@ -171,6 +195,10 @@ export const ContentWrapper = styled("div")`
       width: 100%;
       max-width: 320px;
       line-height: 1.15;
+
+      span {
+        color: #1464F6;
+      }
     }
   }
 `;
