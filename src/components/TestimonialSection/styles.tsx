@@ -907,12 +907,4 @@ export const Ellipse = styled("span")`
   @media only screen and (max-width: 425px) {
     display: none;
   }
-  /* Mobile M - 375px */
-  @media only screen and (max-width: 375px) {
-    display: none;
-  }
-  /* Mobile S - 320px */
-  @media only screen and (max-width: 320px) {
-    display: none;
-  }
 `
