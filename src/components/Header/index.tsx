@@ -38,11 +38,11 @@ const Header = ({ t }: any) => {
     return (
       <>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("Sobre o curso")}</Span>
+          <Span>{t("Sobre o material")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+        {/* <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
           <Span>{t("Contato")}</Span>
-        </CustomNavLinkSmall>
+        </CustomNavLinkSmall> */}
         <CustomNavLinkSmall>
           <Span><a href="https://pay.hotmart.com/next/J68440135M?off=cdaer77b&sck=HOTMART_PRODUCT_PAGE&bid=1648838024608" target="_blank" rel="noreferrer">{t("ADQUIRIR AGORA")}</a></Span>
         </CustomNavLinkSmall>

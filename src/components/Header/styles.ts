@@ -55,6 +55,8 @@ export const HeaderSection = styled("header")`
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  /* visibility: visible; */
+  visibility: hidden;
 
   /* 4K - 2560px */
   @media only screen and (max-width: 2560px) {
