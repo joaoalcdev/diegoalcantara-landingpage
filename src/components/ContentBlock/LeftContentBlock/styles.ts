@@ -7,11 +7,6 @@ export const LeftContentSection = styled("section")`
   @media only screen and (max-width: 1024px) {
     padding: 4rem 0 4rem;
   }
-
-  img {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
 `;
 
 export const Content = styled("p")`

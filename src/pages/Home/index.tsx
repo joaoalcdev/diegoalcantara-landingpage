@@ -35,7 +35,7 @@ const Home = () => {
         title={ContentProduct.title}
         content={ContentProduct.text}
         section={ContentProduct.section}
-        icon="graphs.svg"
+        icon="guide.svg"
         id="about" btnContent={"QUERO ADQUIRIR O MATERIAL"}
       />
       {/* ABOUT ME SECTION */}
