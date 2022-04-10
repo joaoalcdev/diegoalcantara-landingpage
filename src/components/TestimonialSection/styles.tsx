@@ -890,3 +890,29 @@ export const SliderContainer = styled("div")`
     }
   }
 `
+
+// object style
+export const Ellipse = styled("span")`
+  @media only screen and (max-width: 2560px) {
+    content: "";
+    z-index: -10;
+    position: absolute;
+    flex-wrap: no-wrap;
+    border-radius: 100%;
+    box-shadow: 0px 5px 1150px 400px #1464F6;
+    opacity: 20%;
+    left: 0;
+  }
+  /* Mobile L - 425px */
+  @media only screen and (max-width: 425px) {
+    display: none;
+  }
+  /* Mobile M - 375px */
+  @media only screen and (max-width: 375px) {
+    display: none;
+  }
+  /* Mobile S - 320px */
+  @media only screen and (max-width: 320px) {
+    display: none;
+  }
+`
